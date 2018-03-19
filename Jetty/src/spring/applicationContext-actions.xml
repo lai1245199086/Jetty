@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 配置ActionBean -->
+	<bean name="helloAction" class="com.cll.action.HelloAction" parent="IbsQueryAction" />
+	<bean name="requestAction" class="com.cll.action.RequestAction" parent="IbsSubmitAction"></bean>
+	<bean name="UploadAction" class="com.cll.action.UploadAction" parent="IbsSubmitAction"></bean>
+	<bean name="GetImgAction" class="com.cll.action.GetImgAction" parent="IbsQueryAction"></bean>
+	<bean name="ErrorHandlerAction" class="com.cll.action.ErrorHandlerAction" parent="IbsSubmitAction"></bean>
+	
+</beans>

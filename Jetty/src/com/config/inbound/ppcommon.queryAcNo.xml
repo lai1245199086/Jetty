@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE segment SYSTEM "packetutf8.dtd">
+<segment>
+	<xmlTag tagName="acno"><String name="AcNo"></String></xmlTag>
+	<xmlTag tagName="begindate"><Date name="BeginDate" pattern="yyyy-MM-dd"></Date></xmlTag>
+	<xmlTag tagName="username"><String name="UserName" defalutValue="张三"></String></xmlTag>
+</segment>

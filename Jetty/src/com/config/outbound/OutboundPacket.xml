@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE segment SYSTEM "packetutf8.dtd">
+<outboundPacket tagName="root">
+<segment tagName="req">
+<segment tagName="head">
+	<xmlTag tagName="jnlno"><String name="_JnlNo"></String></xmlTag>
+	<xmlTag tagName="transdate"><Date name="_TransDate" pattern="yyyyMMdd"></Date></xmlTag>
+	<xmlTag tagName="transtime"><Date name="_TransTime" pattern="yyyyMMddHHmmss"></Date></xmlTag>
+	<xmlTag tagName="trancode"><String name="_HostTransCode"></String></xmlTag>
+</segment>
+<include keyName="TransCode" prefix="f"></include>
+</segment>
+</outboundPacket>

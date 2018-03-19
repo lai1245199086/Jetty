@@ -1,0 +1,9 @@
+/META-INF/
+/com/
+/config/
+/jdbc/
+/log4j.properties
+/message/
+/mybatis/
+/spring/
+/xmlPath.properties

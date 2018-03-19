@@ -1,0 +1,92 @@
+2017-01-08 18:24:09.753 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:09.789 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:09.790 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:14.877 [qtp806903954-19] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:14.886 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:14.886 [qtp806903954-19] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:14.890 [qtp806903954-19] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:14.888 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> GetImgAction
+ 2017-01-08 18:24:14.894 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:14.899 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 127] - org.eclipse.jetty.server.HttpInput@4aae6c4e
+ 2017-01-08 18:24:14.906 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:14.907 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:14.908 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:14.920 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:14.921 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:14.923 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:14.943 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:14.944 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:14.945 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:14.979 [qtp806903954-16] INFO [com.framework.context.ContextImpl.initialValue 27] - ThreadLocal 初始化
+ 2017-01-08 18:24:14.981 [qtp806903954-16] INFO [com.framework.chain.ChainImpl.execute 17] - ----------责任链执行开始-------
+ 2017-01-08 18:24:14.985 [qtp806903954-16] INFO [com.framework.chain.ChainImpl.execute 21] - ----------责任链执行结束-------
+ 2017-01-08 18:24:14.986 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 155] - 返回结果 >>,stream
+ 2017-01-08 18:24:15.093 [qtp806903954-15] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:15.094 [qtp806903954-15] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:15.095 [qtp806903954-15] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:15.905 [qtp806903954-19] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:15.906 [qtp806903954-19] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:15.907 [qtp806903954-19] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.158 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.158 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.159 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.160 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.161 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.162 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.526 [qtp806903954-15] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.528 [qtp806903954-15] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.529 [qtp806903954-15] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.712 [qtp806903954-19] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.713 [qtp806903954-19] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.714 [qtp806903954-19] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.791 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.793 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.794 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.843 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.845 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.846 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.847 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.850 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.851 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.877 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.880 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.881 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.919 [qtp806903954-15] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.921 [qtp806903954-15] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.922 [qtp806903954-15] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.964 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.966 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.967 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:16.997 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:16.998 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:16.999 [qtp806903954-16] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:20.296 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:20.297 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> requestAction
+ 2017-01-08 18:24:20.301 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:20.312 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 127] - org.eclipse.jetty.server.HttpInput@4aae6c4e
+ 2017-01-08 18:24:20.314 [qtp806903954-17] INFO [com.framework.context.ContextImpl.initialValue 27] - ThreadLocal 初始化
+ 2017-01-08 18:24:20.316 [qtp806903954-17] INFO [com.framework.chain.ChainImpl.execute 17] - ----------责任链执行开始-------
+ 2017-01-08 18:24:20.323 [qtp806903954-17] INFO [com.framework.chain.LoginCheckCommand.execute 13] - 在这里做登录校验
+ 2017-01-08 18:24:20.324 [qtp806903954-17] INFO [com.framework.chain.ValidationCommand.execute 48] -  Style = ^[\u4e00-\u9fa5]+$ , Text = null
+ 2017-01-08 18:24:20.328 [qtp806903954-17] INFO [com.cll.action.RequestAction.execute 19] - execute 方法被执行
+ 2017-01-08 18:24:20.328 [qtp806903954-17] INFO [com.framework.chain.ChainImpl.execute 21] - ----------责任链执行结束-------
+ 2017-01-08 18:24:20.329 [qtp806903954-17] INFO [com.framework.core.MainFilter.doFilter 155] - 返回结果 >>/WEB-INF/page/hello.jsp
+ 2017-01-08 18:24:21.720 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:21.721 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:21.722 [qtp806903954-20] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:22.184 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:22.186 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> 
+ 2017-01-08 18:24:22.187 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> execute
+ 2017-01-08 18:24:25.033 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 89] - 访问的Local >>zh_CN
+ 2017-01-08 18:24:25.034 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 110] - 调用的ActionName >> helloAction
+ 2017-01-08 18:24:25.036 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 113] - 调用的ActionMethod >> hello
+ 2017-01-08 18:24:25.049 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 127] - org.eclipse.jetty.server.HttpInput@4aae6c4e
+ 2017-01-08 18:24:25.055 [qtp806903954-18] INFO [com.framework.context.ContextImpl.initialValue 27] - ThreadLocal 初始化
+ 2017-01-08 18:24:25.056 [qtp806903954-18] INFO [com.framework.chain.ChainImpl.execute 17] - ----------责任链执行开始-------
+ 2017-01-08 18:24:25.057 [qtp806903954-18] INFO [com.framework.chain.ValidationCommand.execute 48] -  Style = ^[A-Za-z0-9]{6,20}$ , UserId = 123你好！
+ 2017-01-08 18:24:25.063 [qtp806903954-18] ERROR [com.framework.core.MainFilter.doFilter 142] - field.does.not.match.required.pattern
+ 2017-01-08 18:24:25.110 [qtp806903954-18] INFO [com.framework.handler.ExceptionHandlerImpl.parseLocalizedMessage 40] - UserId does not config in the file 'dict_zh_CN.properties'
+ 2017-01-08 18:24:25.166 [qtp806903954-18] INFO [com.framework.handler.ExceptionHandlerImpl.parseLocalizedMessage 53] - 异常信息 >> UserId不符合要求格式
+ 2017-01-08 18:24:25.170 [qtp806903954-18] INFO [com.framework.core.MainFilter.doFilter 148] - 返回结果 >>,json
+ 2017-01-08 18:24:25.832 [qtp806903954-18] INFO [com.framework.view.JsonView.execute 40] - Result JSON >> {AjaxCode=9999, AjaxError=UserId不符合要求格式}
+ 

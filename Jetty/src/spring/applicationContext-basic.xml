@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 配置Command-->
+	<bean name="LoginCheckCommand" class="com.framework.chain.LoginCheckCommand"/>
+	<bean name="ValidationCommand" class="com.framework.chain.ValidationCommand"/>
+	<bean name="DelegateCommand" class="com.framework.chain.DelegateCommand" scope="prototype"/>
+	
+	
+	<!-- 配置Convertor -->
+	<bean name="DateConvertor" class="com.framework.style.DateConvertor"/>
+	
+	<!-- 配置View -->
+	<bean name="ViewImpl" class="com.framework.view.ViewImpl"/>
+	<bean name="JspView" class="com.framework.view.JspView"/>
+	<bean name="JsonView" class="com.framework.view.JsonView"/>
+	<bean name="StreamView" class="com.framework.view.StreamView"/>
+	
+	<!-- 配置异常处理类 -->
+	<bean name="ExceptionHandler" class="com.framework.handler.ExceptionHandlerImpl">
+		<property name="dictMessageSource" ref="DictMessageSource"></property>
+	</bean>
+	
+</beans>

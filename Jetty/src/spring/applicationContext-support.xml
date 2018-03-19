@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 配置xml路径
+	<bean id="xmlConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location" value="classpath:xmlPath.properties"/>
+	</bean> -->
+	
+	<!-- 配置xml解析器 -->
+	<bean name="ActionImpl" class="com.framework.config.ActionImpl" scope="prototype"/>
+	<bean name="ChainImpl" class="com.framework.chain.ChainImpl" scope="prototype"/>
+	<bean name="StyleImpl" class="com.framework.style.StyleImpl" scope="prototype"/>
+	<bean id="ResolverUtil" class="com.framework.util.ResolverUtil">
+		<property name="styleXmlPath" value="${styleXmlPath}"/>
+		<property name="chainXmlPath" value="${chainXmlPath}"/>
+		<property name="actionXmlPath" value="${actionXmlPath}"/>
+	</bean>
+	<bean name="MainFilter" class="com.framework.core.MainFilter">
+		<property name="actionManager" ref="ActionManager"></property>
+		<property name="multipartResolver" ref="MultipartResolver"></property>
+		<property name="view" ref="ViewImpl"></property>
+		<property name="exceptionHandler" ref="ExceptionHandler"></property>
+	</bean>
+	<bean name="ActionManager" class="com.framework.core.ActionManager"></bean>
+	
+    
+    <!-- 配置基本的Action -->
+    <bean id="IbsQueryAction" class="com.framework.action.IbsQueryAction"  abstract="true">
+    	<property name="sqlMap" ref="sqlSession"></property>
+	</bean>
+    <bean id="IbsSubmitAction" class="com.framework.action.IbsSubmitAction"  abstract="true">
+		<property name="sqlMap" ref="sqlSession"></property>
+	</bean>
+	
+	<!-- 文件上传 -->
+	<bean id="MultipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+	    <property name="defaultEncoding" value="UTF-8"/>
+		<property name="maxUploadSize" value="1048576"/><!--最大尺寸为1MB -->
+	</bean>  
+</beans>

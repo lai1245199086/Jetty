@@ -1,0 +1,4 @@
+1.自定义框架 -- 责任链、模板等等
+2.入口启动类：/Jetty/src/com/framework/server/MainServer.java
+
+3.访问地址：http://localhost:8080/Jetty/ 得到index.jsp页面内容

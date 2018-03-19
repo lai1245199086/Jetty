@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<package>
+		<style name="TextStyle"><!-- 只能为中文 -->
+			<setting>
+				<param name="option">false</param>
+				<param name="rulePattern">^[\u4e00-\u9fa5]+$</param>
+			</setting>
+		</style>
+		<style name="DateStyle">
+			<setting>
+				<param name="option">false</param>
+				<param name="rulePattern">^(?:(?!0000)[0-9]{4}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-8])|(?:0[13-9]|1[0-2])-(?:29|30)|(?:0[13578]|1[02])-31)|(?:[0-9]{2}(?:0[48]|[2468][048]|[13579][26])|(?:0[48]|[2468][048]|[13579][26])00)-02-29)$</param>
+				<convertor name="convertor">DateConvertor</convertor>
+			</setting>
+		</style>
+		<style name="NumberStyle">
+			<setting>
+				<param name="option">false</param>
+				<param name="rulePattern">^[0-9]*$</param>
+			</setting>
+		</style>
+		<style name="AmountStyle">
+			<setting>
+				<param name="option">false</param>
+				<param name="rulePattern">^[0-9]+\.{0,1}[0-9]{0,2}$</param>
+			</setting>
+		</style>
+		<style name="UserIdStyle">
+			<setting>
+				<param name="option">false</param>
+				<param name="rulePattern">^[A-Za-z0-9]{6,20}$</param>
+			</setting>
+		</style>
+		<style name="UserIdStyle2"><!-- 数字、26个英文字母或者下划线 -->
+			<setting>
+				<param name="option">false</param>
+				<param name="rulePattern">^\w{6,20}$</param>
+			</setting>
+		</style>
+		<style name="PhoneStyle">
+			<setting>
+				<param name="option">false</param>
+				<param name="rulePattern">^(\d{3}-\d{8})|(\d{4}-\d{7})|(1[34578]\d{9})$</param>
+			</setting>
+		</style>
+		<style name="MobilePhoneStyle">
+			<setting>
+				<param name="option">false</param>
+				<param name="rulePattern">^1[34578]\d{9}$</param>
+			</setting>
+		</style>
+		<style name="EmailStyle">
+			<setting>
+				<param name="option">false</param>
+				<param name="rulePattern">^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$</param>
+			</setting>
+		</style>
+		<style name="IdNoStyle">
+			<setting>
+				<param name="option">false</param>
+				<param name="rulePattern">^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$</param>
+			</setting>
+		</style>
+		
+	</package>
+</config>

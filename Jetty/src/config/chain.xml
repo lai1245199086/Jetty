@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<package>
+		<chain name="validateChain">
+			<commands>
+				<command>ValidationCommand</command>
+				<command>DelegateCommand</command>
+			</commands>
+		</chain>
+		<chain name="RequestCheckChain">
+			<commands>
+				<command>LoginCheckCommand</command>
+				<command>ValidationCommand</command>
+				<command>DelegateCommand</command>
+			</commands>
+		</chain>
+		
+	</package>
+</config>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="users">  
+  
+    <resultMap type="java.util.HashMap" id="UserResultMap">  
+        <id property="Id" column="id"/>  
+        <result property="UserName" column="username"/>  
+        <result property="Password" column="password"/>  
+    </resultMap>  
+       
+    <!-- 查询用户，根据id -->  
+    <select id="getUser" parameterType="java.lang.Integer" resultMap="UserResultMap">  
+        <![CDATA[  
+            SELECT * from Users
+                WHERE id = #{id}   
+        ]]>    
+    </select>  
+       
+    <!-- 查询用户列表 -->  
+    <select id="getAllUser"  resultMap="UserResultMap">  
+        <![CDATA[  
+            SELECT * from Users order by id desc
+        ]]>    
+    </select>  
+    
+    <!-- 新增用户 -->  
+    <insert id="insertUser" parameterType="java.util.HashMap">  
+        insert into users(username,password) values(#{UserName},#{Password})
+    </insert>  
+    <!-- 修改用户 -->  
+    <update id="updateUser" parameterType="java.util.HashMap">  
+        update users set username=#{UserName},password=#{Password} where id=#{Id}
+    </update>  
+    <!-- 删除用户 -->  
+    <update id="deleteUser" parameterType="java.util.HashMap">  
+        delete from users where id=#{Id}
+    </update>  
+       
+</mapper>  

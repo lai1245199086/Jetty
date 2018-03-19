@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://www.cll.com/schema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:beans="http://www.springframework.org/schema/beans" targetNamespace="http://www.luxy.org/li" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xsd:import namespace="http://www.springframework.org/schema/beans" />
+
+    <xsd:element name="config" type="configType"></xsd:element>
+    <xsd:complexType name="configType">
+    	<xsd:complexType name="package" type="packageType"></xsd:complexType>
+    </xsd:complexType>
+    <xsd:complexType name="packageType">
+    	<xsd:complexType name="chain" type="chainType"></xsd:complexType>
+    </xsd:complexType>
+    <xsd:complexType name="chainType">
+        <xsd:attribute name="name" type="xsd:ID" use="required" />
+        <xsd:complexType name="commands" type="commandsType"></xsd:complexType>
+    </xsd:complexType>
+    <xsd:complexType name="commandsType">
+        <xsd:element name="command" type="xsd:string"/>
+    </xsd:complexType>
+
+</xsd:schema>

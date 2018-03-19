@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 为简化框架,package的属性都没有实现;而且所有的元素都是简化版的 -->
+<actions>
+	<package>
+		<action id="helloAction" chain="validateChain">
+			<fields>
+				<field name="UserId">UserIdStyle{option=true}</field>
+				<field name="IdNo">IdNoStyle{option=true}</field>
+			</fields>
+			<channels>
+				<channel type="http">
+					<result name="success">/WEB-INF/page/hello.jsp</result>
+				</channel>
+				<channel type="mobile">
+					<result name="success">,json</result>
+				</channel>
+			</channels>
+		</action>
+		
+		<action name="requestAction" chain="RequestCheckChain">
+			<fields>
+				<field name="Text">TextStyle{option=true}</field>
+				<field name="BeginDate">DateStyle{option=true}</field>
+				<field name="Email">EmailStyle{option=true}</field>
+			</fields>
+			<channels>
+				<channel type="http">
+					<result name="hello">/WEB-INF/page/hello.jsp</result>
+					<result name="success">/WEB-INF/page/request.jsp</result>
+				</channel>
+				<channel type="mobile">
+					<result name="hello">,json</result>
+					<result name="success">,stream</result>
+				</channel>
+			</channels>
+		</action>
+		
+		<action id="UploadAction" chain="validateChain">
+			<channels>
+				<channel type="http">
+					<result name="success">,json</result>
+				</channel>
+			</channels>
+		</action>
+		
+		<action id="GetImgAction" chain="validateChain">
+			<channels>
+				<channel type="http">
+					<result name="success">,stream</result>
+				</channel>
+			</channels>
+		</action>
+		
+		<action id="ErrorHandlerAction" chain="validateChain">
+			<channels>
+				<channel type="http">
+					<result name="success">,json</result>
+				</channel>
+			</channels>
+		</action>
+		
+	</package>
+</actions>
