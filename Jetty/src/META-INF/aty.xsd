@@ -2,7 +2,7 @@
 <xsd:schema xmlns="http://www.aty.com/schema/aty" 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns:beans="http://www.springframework.org/schema/beans"
-    targetNamespace="http://www.cll.com/schema/"
+    targetNamespace="http://www.cll.com/schema"
     elementFormDefault="qualified"
     attributeFormDefault="unqualified">
 

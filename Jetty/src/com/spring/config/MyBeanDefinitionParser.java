@@ -10,6 +10,9 @@ public class MyBeanDefinitionParser extends AbstractSingleBeanDefinitionParser {
 	}
 
 	protected void doParse(Element element, BeanDefinitionBuilder bean) {
+		String id = element.getAttribute("id");
+		bean.addPropertyValue("id", id);
+		
 		String driverClassName = element.getAttribute("driverClassName");
 		bean.addPropertyValue("driverClassName", driverClassName);
 
